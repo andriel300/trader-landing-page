@@ -19,6 +19,7 @@ blockquote,
 dl,
 dd {
     margin: 0;
+    font: inherit;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -32,9 +33,13 @@ html:focus-within {
     scroll-behavior: smooth;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 /* Set core body defaults */
 body {
-    min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
 }

@@ -7,9 +7,9 @@
         Sizes 48px, 3rem Extra Bold --hero-main-text-color-800 
         Sizes 24px, 1.5rem SemiBold --header-logo-text-color-600
     */
-    --clr-accent-300: #f9faf8;
-    --clr-accent-800: #f9faf8;
-    --clr-accent-600: #f9faf8;
+    --clr-primary-300: #f9faf8;
+    --clr-primary-600: #1f2937;
+    --clr-primary-800: #f9faf8;
     /* 
         Sizes 18px, 1.1rem, to use for header link text --hero-secondary-text-clr-300
         Quote section background color --quote-bg-clr
@@ -19,7 +19,7 @@
         36px, 2rem Extra-Bold --inf-header-text-clr-800
         36px, 2rem light italic  --quote-text-clr-400
     */
-    --clr-neutral-800-400: #1f2937;
+    --clr-accent-800-400: #1f2937;
 
     --clr-button: #3882f6; /* call to action background color */
 
@@ -138,4 +138,74 @@ h6 {
         transition-duration: 0.01ms !important;
         scroll-behavior: auto !important;
     }
+}
+
+/* Utility Classes */
+
+.text-primary-300 {
+    color: var(--clr-primary-300);
+}
+.text-primary-600 {
+    color: var(--clr-primary-600);
+}
+.text-primary-800 {
+    color: var(--clr-primary-800);
+}
+.text-neutral-300 {
+    color: var(--clr-neutral-300);
+}
+/* Background Colors */
+.bg-primary-300 {
+    background-color: var(--clr-primary-300);
+}
+.bg-primary-600 {
+    background-color: var(--clr-primary-600);
+}
+.bg-primary-800 {
+    background-color: var(--clr-primary-800);
+}
+.bg-neutral-300 {
+    background-color: var(--clr-neutral-300);
+}
+.bg-colors {
+    color: var(--clr-accent-800-400);
+}
+.bg-hero-footer {
+    color: var(--dark-bg-clr);
+}
+
+/* font weights */
+.fw-light {
+    font-weight: var(--fw-light);
+}
+.fw-regular {
+    font-weight: var(--fw-regular);
+}
+.fw-semibold {
+    font-weight: var(--fw-semibold);
+}
+.fw-extrabold {
+    font-weight: var(--fw-extrabold);
+}
+/* font sizes */
+.fs-hero-main-text {
+    font-size: var(--fs-hero-main-text);
+}
+.fs-secondary-text {
+    font-size: var(--fs-hero-secondary-text);
+}
+.fs-xs-200 {
+    font-size: var(--fs-200);
+}
+.fs-small-300 {
+    font-size: var(--fs-300);
+}
+.fs-large-400 {
+    font-size: var(--fs-400);
+}
+.fs-xl-600 {
+    font-size: var(--fs-600);
+}
+.fs-xxl-800 {
+    font-size: var(--fs-800);
 }

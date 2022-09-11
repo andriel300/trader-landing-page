@@ -1,3 +1,51 @@
+:root {
+    /* Custom properties settings */
+
+    --dark-bg-clr: #1f2937; /* hero and footer*/
+
+    /*  
+        Sizes 48px, 3rem Extra Bold --hero-main-text-color-800 
+        Sizes 24px, 1.5rem SemiBold --header-logo-text-color-600
+    */
+    --clr-accent-300: #f9faf8;
+    --clr-accent-800: #f9faf8;
+    --clr-accent-600: #f9faf8;
+    /* 
+        Sizes 18px, 1.1rem, to use for header link text --hero-secondary-text-clr-300
+        Quote section background color --quote-bg-clr
+    */
+    --clr-neutral-300: #e5e7eb;
+    /* 
+        36px, 2rem Extra-Bold --inf-header-text-clr-800
+        36px, 2rem light italic  --quote-text-clr-400
+    */
+    --clr-neutral-800-400: #1f2937;
+
+    --clr-button: #3882f6; /* call to action background color */
+
+    --ff-primary: "Be Vietnam Pro", sans-serif;
+
+    --ff-body: var(--ff-primary);
+    --ff-heading: var(--ff-primary);
+
+    --fw-regular: 300;
+    --fw-light: 400;
+    --fw-semibold: 600;
+    --fw-extrabold: 800;
+
+    --fs-200: 0.875rem; /* 14px */
+    --fs-300: 1.1rem; /* 18px */
+    --fs-400: 2rem; /* 24px */
+    --fs-600: 1.5rem; /* 36px */
+    --fs-800: 3rem; /* 48px */
+
+    --fs-body: var(--fs-200);
+    --fs-hero-main-text: var(--fs-800);
+    --fs-hero-secondary-text: var(--fs-600);
+    --fs-logo-text: var(--fs-400);
+    --fs-nav: var(--fs-300);
+    --fs-button: var(--fs-300);
+}
 
 /* Box sizing rules */
 /* I just flat ou reset all elements and pseudo-elements to use box-sizing: border-box. */
@@ -11,9 +59,8 @@
 /* Remove default margin */
 * {
     margin: 0;
-    line-height: calc(1em + 0.5rem); 
+    line-height: calc(1em + 0.5rem);
     font: inherit;
-
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */

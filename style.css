@@ -1,4 +1,6 @@
 /* Box sizing rules */
+/* I just flat ou reset all elements and pseudo-elements to use box-sizing: border-box. */
+/* This is often called "universal box-sizing" */
 *,
 *::before,
 *::after {

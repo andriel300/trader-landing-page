@@ -1,3 +1,4 @@
+
 /* Box sizing rules */
 /* I just flat ou reset all elements and pseudo-elements to use box-sizing: border-box. */
 /* This is often called "universal box-sizing" */
@@ -8,18 +9,11 @@
 }
 
 /* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
+* {
     margin: 0;
+    line-height: calc(1em + 0.5rem); 
     font: inherit;
+
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -33,6 +27,8 @@ html:focus-within {
     scroll-behavior: smooth;
 }
 
+/* Allow percentage-based heights in the application */
+
 html,
 body {
     height: 100%;
@@ -42,6 +38,7 @@ body {
 body {
     text-rendering: optimizeSpeed;
     line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
 }
 
 /* A elements that don't have a class get default styles */
@@ -52,7 +49,9 @@ a:not([class]) {
 /* Make images easier to work with */
 img,
 picture,
-svg {
+svg,
+video,
+canvas {
     max-width: 100%;
     display: block;
 }
@@ -63,6 +62,19 @@ button,
 textarea,
 select {
     font: inherit;
+}
+
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */

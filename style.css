@@ -226,3 +226,10 @@ h6 {
 .font-style-italic {
     font-style: var(--font-style-italic);
 }
+
+
+/* general styling */
+
+body {
+    font-size: var(--fs-body);
+}

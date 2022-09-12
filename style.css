@@ -172,11 +172,14 @@ h6 {
 .bg-neutral-300 {
     background-color: var(--clr-neutral-300);
 }
+.bg-cta {
+    background-color: var(--clr-button);
+}
 .bg-colors {
-    color: var(--clr-accent-800-400);
+    background-color: var(--clr-accent-800-400);
 }
 .bg-hero-footer {
-    color: var(--dark-bg-clr);
+    background-color: var(--dark-bg-clr);
 }
 
 /* font weights */

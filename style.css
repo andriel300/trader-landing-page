@@ -28,15 +28,16 @@
     --ff-body: var(--ff-primary);
     --ff-heading: var(--ff-primary);
 
-    --fw-regular: 300;
-    --fw-light: 400;
+    --fw-thin: 100;
+    --fw-light: 200;
+    --fw-regular: 400;
     --fw-semibold: 600;
     --fw-extrabold: 800;
 
     --fs-200: 0.875rem; /* 14px */
-    --fs-300: 1.1rem; /* 18px */
-    --fs-400: 2rem; /* 24px */
-    --fs-600: 1.5rem; /* 36px */
+    --fs-300: 1.125rem; /* 18px */
+    --fs-400: 1.5rem; /* 24px */
+    --fs-600: 2.25rem; /* 36px */
     --fs-800: 3rem; /* 48px */
 
     --fs-body: var(--fs-200);
@@ -45,6 +46,9 @@
     --fs-logo-text: var(--fs-400);
     --fs-nav: var(--fs-300);
     --fs-button: var(--fs-300);
+
+    --fs-style: italic;
+    --font-style-italic: var(--fs-style);
 }
 
 /* Box sizing rules */
@@ -176,6 +180,9 @@ h6 {
 }
 
 /* font weights */
+.fw-thin {
+    font-weight: var(--fw-thin);
+}
 .fw-light {
     font-weight: var(--fw-light);
 }
@@ -195,6 +202,9 @@ h6 {
 .fs-secondary-text {
     font-size: var(--fs-hero-secondary-text);
 }
+.fs-third-text {
+    font-size: var(--fs-logo-text);
+}
 .fs-xs-200 {
     font-size: var(--fs-200);
 }
@@ -209,4 +219,7 @@ h6 {
 }
 .fs-xxl-800 {
     font-size: var(--fs-800);
+}
+.font-style-italic {
+    font-style: var(--font-style-italic);
 }

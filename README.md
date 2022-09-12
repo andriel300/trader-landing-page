@@ -8,8 +8,8 @@ I didn't use javascript, I only use HTML/CSS. These js files are from Vite becau
 
 Photos from unplash.com
 
-## Attributes to:
+## Attributes to creators:
 
-https://unsplash.com/@dylancalluy
-https://unsplash.com/@sajadnori
+https://unsplash.com/@dylancalluy  
+https://unsplash.com/@sajadnori  
 https://unsplash.com/@behy_studio

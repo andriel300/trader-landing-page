@@ -61,7 +61,8 @@
     --size-600: 2rem;
     --size-700: 3rem;
     --size-800: 4rem;
-    --size-900: 5rem;
+    --size-900: 7rem;
+    --size-1000: 10rem;
 }
 
 @media (min-width: 50em) {
@@ -224,6 +225,7 @@ h6 {
 /* font sizes */
 .fs-hero-main-text {
     font-size: var(--fs-hero-main-text);
+    line-height: 1.2;
 }
 .fs-secondary-text {
     font-size: var(--fs-hero-secondary-text);
@@ -250,6 +252,18 @@ h6 {
     font-style: var(--font-style-italic);
 }
 
+/* Padding utility classes */
+
+.padding-block-400 {
+    padding: var(--size-400);
+}
+.padding-block-900 {
+    padding: var(--size-900);
+}
+.padding-block-1000 {
+    padding: var(--size-1000);
+}
+
 .container {
     --max-width: 1440px;
     --padding: 1rem; /* horizontal padding */
@@ -273,6 +287,12 @@ h6 {
 /* .resize {
     width: -20px;
 } */
+
+.bg-cta-clr {
+    background-color: #3882f6;
+    padding: 3rem;
+    border-radius: 0.75rem;
+}
 
 .rounded {
     max-width: 12rem;

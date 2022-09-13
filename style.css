@@ -274,25 +274,18 @@ h6 {
 
 .even-columns {
     display: flex;
-    /* flex-grow: 1; */
     gap: 1rem;
 }
 
-/* .test {
-    display: flex;
-    flex-flow: row nowrap;
-    margin: auto;
-} */
-
-/* .resize {
-    width: -20px;
-} */
+/* background call to action color and border */
 
 .bg-cta-clr {
     background-color: #3882f6;
     padding: 3rem;
     border-radius: 0.75rem;
 }
+
+/* Image sections and text */
 
 .rounded {
     max-width: 12rem;
@@ -336,4 +329,24 @@ body {
     color: var(--dark-bg-clr);
     display: flex;
     flex-direction: column;
+}
+
+/* Buttons */
+.button-section2 {
+    border: 0;
+    border-radius: 0.65rem;
+    padding: 5px 2.5em;
+    font-weight: var(--fw-semibold);
+    font-size: var(--fs-button);
+    color: var(--clr-primary-300);
+    background-color: var(--clr-button);
+}
+.button {
+    border: solid white 1px;
+    border-radius: 100vmax;
+    padding: 1em 2.5em;
+    font-weight: var(--fw-semibold);
+    font-size: var(--fs-button);
+    color: var(--clr-primary-300);
+    background-color: var(--clr-button);
 }

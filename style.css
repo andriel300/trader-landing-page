@@ -59,6 +59,8 @@
         --fs-body: var(--fs-500);
         --fs-hero-main-text: var(--fs-900);
         --fs-hero-secondary-text: var(--fs-700);
+
+        --fs-nav: var(--fs-200);
     }
 }
 
@@ -248,24 +250,51 @@ h6 {
 
 .even-columns {
     display: flex;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     gap: 1rem;
 }
 
-.test {
+/* .test {
     display: flex;
     flex-flow: row nowrap;
     margin: auto;
+} */
+
+/* .resize {
+    width: -20px;
+} */
+
+.rounded {
+    max-width: 12rem;
+    border-radius: 0.75rem;
 }
 
-.resize {
-    width: -20px;
+.text-center,
+.text {
+    display: flex;
+    flex: 1;
+    text-align: center;
+}
+
+.centerimgdiv {
+    display: flex;
+    align-items: center;
+}
+
+.stockchartbig {
+    width: 100rem;
+}
+
+.info {
+    max-width: 200px;
 }
 
 @media (min-width: 50em) {
     .even-columns {
         /* grid-auto-flow: column;
         grid-auto-columns: 1fr; */
+        display: flex;
+        justify-content: space-around;
     }
 }
 
@@ -275,4 +304,6 @@ body {
     font-size: var(--fs-body);
     font-family: var(--ff-body);
     color: var(--dark-bg-clr);
+    display: flex;
+    flex-direction: column;
 }

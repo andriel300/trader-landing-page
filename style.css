@@ -436,16 +436,13 @@ body {
 .button-footer {
     cursor: pointer;
     text-decoration: none;
-    border: solid white 1px;
-    border-radius: 1rem;
-    padding: 0.2rem 1rem;
+    border: 0;
+    border-radius: 100vmax;
+    padding: var(--size-200) 1.5rem;
     font-weight: var(--fw-semibold);
     font-size: var(--fs-button);
     color: var(--clr-primary-300);
     background-color: var(--clr-button);
-    box-shadow: 0 1.25em 1em -1em var(--clr-button);
-    margin: 20px;
-    margin-bottom: 10rem;
 }
 .button-footer:hover,
 .button-footer:focus-visible {
@@ -503,4 +500,19 @@ body {
 
 .footer-nav li {
     padding: var(--size-300);
+}
+
+.primary-footer-form input:where([type="text"], [type="email"]) {
+    border-radius: 100vw;
+    border: 0;
+    padding: 0.6rem var(--size-400);
+}
+
+.primary-footer form {
+    display:flex ;
+    gap: var(--size-200);
+}
+
+.primary-footer-form p {
+    padding: var(--size-400)
 }

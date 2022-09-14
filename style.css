@@ -442,7 +442,8 @@ body {
 /* NAVIGATIONS */
 
 .primary-header {
-    padding-bottom: var(--size-400);
+    padding: var(--size-500);
+
 }
 
 .nav-wrapper {
@@ -459,3 +460,10 @@ body {
 .nav-list a:focus {
     color: var(--clr-button);
 }
+
+.nav-list {
+    display: flex;
+    gap: clamp(var(--size-400), 5vw, var(--size-700));
+}
+
+/* Footer navigation */

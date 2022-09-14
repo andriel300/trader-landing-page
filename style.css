@@ -335,21 +335,20 @@ h6 {
 }
 
 .rounded {
-    border-radius: 0.75rem;
-    border: 5px solid #3882f6;
-    border-radius: 1.1rem;
+    border: 6px solid #3882f6;
+    border-radius: 2rem;
 }
 
 .info img {
-    -webkit-transform: scale(1);
+    -webkit-transform: scale(1.1);
     transform: scale(1);
     -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
 }
 
 .info:hover img {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .text-center {

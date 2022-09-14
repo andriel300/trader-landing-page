@@ -307,10 +307,10 @@ h6 {
 /* Base figure display styles */
 .gallery,
 .info {
-    --gallery-height: 15rem;
-    margin: 0;
-    height: var(--gallery-height);
-    background-color: hsl(0, 0%, 100%);
+    --gallery-height: 30rem;
+    /* margin: 0; */
+    /* height: var(--gallery-height); */
+    /* background-color: hsl(0, 0%, 100%); */
 }
 
 /* image display styles */
@@ -322,24 +322,6 @@ h6 {
     height: var(--gallery-height);
 }
 
-/* Use aspect-ratio with @supports */
-
-/* Add aspect-ratio custom property */
-.gallery,
-.info {
-    --gallery-aspect-ratio: 4/3;
-}
-
-.gallery img {
-    transform: scale(1) translate(0, 0);
-    transition: transform 1100ms ease-in;
-}
-
-.gallery,
-.info:hover img {
-    transform: scale(1.1) translate(-5%, -3%);
-}
-
 .centertext {
     display: flex;
     justify-content: center;
@@ -349,10 +331,8 @@ h6 {
     border-radius: 0.75rem;
 }
 
-.text-center,
-.text {
+.text-center {
     display: flex;
-    flex: 1;
     text-align: center;
 }
 
@@ -368,7 +348,7 @@ h6 {
 }
 
 .info {
-    max-width: 200px;
+    max-width: 300px;
 }
 
 @media (min-width: 50em) {

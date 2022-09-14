@@ -294,6 +294,13 @@ h6 {
     gap: 1rem;
 }
 
+.flexbetween {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: column wrap;
+    gap: 20px;
+}
+
 /* background call to action color and border */
 
 .bg-cta-clr {
@@ -329,6 +336,20 @@ h6 {
 
 .rounded {
     border-radius: 0.75rem;
+    border: 5px solid #3882f6;
+    border-radius: 1.1rem;
+}
+
+.info img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.info:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .text-center {
@@ -346,6 +367,10 @@ h6 {
     border-radius: 2vw;
     box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.38);
 }
+.text2 {
+    display: flex;
+    justify-content: flex-end;
+}
 
 .bottomtext {
     display: flex;
@@ -353,7 +378,7 @@ h6 {
     align-items: flex-start;
     gap: 6px;
     position: relative;
-    top: 65%;
+    top: 60%;
     right: 55%;
 }
 
@@ -413,4 +438,16 @@ body {
 .button-section2:hover,
 .button-section2:focus-visible {
     background-color: var(--clr-button-hover);
+}
+
+/* NAVIGATIONS */
+
+.primary-header {
+    padding-bottom: var(--size-400);
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

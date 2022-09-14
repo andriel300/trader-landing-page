@@ -492,7 +492,6 @@ body {
 .footer-nav a {
     color: var(--clr-primary-300);
     text-decoration: none;
-    margin: var(--size-900);
 }
 .footer-nav a:is(:hover, :focus) {
     color: var(--clr-button);

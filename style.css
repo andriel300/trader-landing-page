@@ -410,7 +410,7 @@ body {
     text-decoration: none;
     border: 0;
     border-radius: 0.65rem;
-    padding: 5px 2.5em;
+    padding: 5px 1.5em;
     font-weight: var(--fw-semibold);
     font-size: var(--fs-button);
     color: var(--clr-primary-300);
@@ -421,13 +421,31 @@ body {
     cursor: pointer;
     text-decoration: none;
     border: solid white 1px;
-    border-radius: 100vmax;
+    border-radius: 1vmax;
     padding: 0.5rem 1.5em;
     font-weight: var(--fw-semibold);
     font-size: var(--fs-button);
     color: var(--clr-primary-300);
     background-color: var(--clr-button);
     box-shadow: 0 1.25em 1em -1em var(--clr-button);
+}
+.button-footer {
+    cursor: pointer;
+    text-decoration: none;
+    border: solid white 1px;
+    border-radius: 1rem;
+    padding: 0.2rem 1rem;
+    font-weight: var(--fw-semibold);
+    font-size: var(--fs-button);
+    color: var(--clr-primary-300);
+    background-color: var(--clr-button);
+    box-shadow: 0 1.25em 1em -1em var(--clr-button);
+    margin: 20px;
+    margin-bottom: 10rem;
+}
+.button-footer:hover,
+.button-footer:focus-visible {
+    background-color: var(--clr-button-hover);
 }
 
 .button:hover,
@@ -443,7 +461,6 @@ body {
 
 .primary-header {
     padding: var(--size-500);
-
 }
 
 .nav-wrapper {
@@ -467,3 +484,19 @@ body {
 }
 
 /* Footer navigation */
+.footer-nav {
+    columns: 2;
+}
+
+.footer-nav a {
+    color: var(--clr-primary-300);
+    text-decoration: none;
+    margin: var(--size-900);
+}
+.footer-nav a:is(:hover, :focus) {
+    color: var(--clr-button);
+}
+
+.footer-nav li {
+    padding: var(--size-300);
+}

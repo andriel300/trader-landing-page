@@ -4,8 +4,6 @@ Starting a new fun! Project! In this one, we will start with nothing and build o
 
 Srsly... This Project has those problems where it looks like they are impossible to solve. As someone who's still busy learning programming, making a website is one of the few basics I suck at.
 
-I didn't use javascript, I only use HTML/CSS. These js files are from Vite because I used 'npm create vite@latest' to install some build in tools to provide a faster and leaner development experience for this web project, I actually did'nt need though... 🤦‍♂️🤷‍♂️.
-
 Photos from unplash.com
 
 ## Attributes to 5 picture creators:

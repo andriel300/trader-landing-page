@@ -35,6 +35,7 @@
 
     --fw-thin: 100;
     --fw-light: 200;
+    --fw-semilight: 300;
     --fw-regular: 400;
     --fw-semibold: 600;
     --fw-extrabold: 800;
@@ -217,6 +218,9 @@ h6 {
 }
 .fw-light {
     font-weight: var(--fw-light);
+}
+.fw-semilight {
+    font-weight: var(--fw-semilight);
 }
 .fw-regular {
     font-weight: var(--fw-regular);
